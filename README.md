@@ -11,7 +11,7 @@ Tired of censors and profanity filters? Now you can be a potty-mouthed dumbass. 
 
 # Quick Start Guide
 
-- To use the all-in-one .exe, just click [here](https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/download/v1.0.0/RazorbeamFilterEvade.exe)
+- To use the all-in-one .exe, just click [here](https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/download/v1.0.11/RazorbeamFilterEvade.exe)
 - To use the browser script:
 1. Install Tampermonkey in Firefox or Chrome.
 2. Open `RazorbeamFilterEvade.user.js`.
