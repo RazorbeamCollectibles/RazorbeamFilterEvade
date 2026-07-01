@@ -24,3 +24,6 @@ Tired of censors and profanity filters? Now you can be a potty-mouthed dumbass. 
 Don't like where the button is located? Drag it and move it. 
 ![Moveable browser button](docs/screenshots/RBFEButton.gif)
 
+## Notice
+- We aren't responsible if you get banned from somewhere using this. 
+- When copypasting text blocks to Twitter, ignore the duplicated portion: the final submission will be clean.
