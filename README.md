@@ -22,5 +22,5 @@ Tired of censors and profanity filters? Now you can be a potty-mouthed dumbass. 
 ![Main Window](docs/screenshots/RBFEMain.png)
 
 Don't like where the button is located? Drag it and move it. 
-<video src="docs/screenshots/RBFEButton.mp4" controls width="720"></video>
+![Moveable browser button](docs/screenshots/RBFEButton.gif)
 
