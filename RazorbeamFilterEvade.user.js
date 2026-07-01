@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name         Razorbeam Filter Evade
 // @namespace    https://github.com/RazorbeamCollectibles
-// @version      1.0.0
+// @version      1.0.2
 // @description  Converts selected Latin glyphs to non-Latin lookalikes before posting on supported sites.
 // @author       Razorbeam Collectibles
 // @match        https://x.com/*
@@ -381,6 +381,26 @@
         return null;
     }
 
+    function convertOnTrustedPress(event) {
+        if (
+            !enabled
+            || location.hostname.endsWith("instagram.com")
+            || location.hostname.endsWith("x.com")
+            || location.hostname.endsWith("twitter.com")
+        ) {
+            return;
+        }
+        const button = submitButton(event.target);
+        if (!button) {
+            return;
+        }
+        const editor = bestEditorNear(event.target);
+        if (!editor) {
+            return;
+        }
+        convertEditor(editor);
+    }
+
     function convertBeforeSubmit(event) {
         if (!enabled) {
             return;
@@ -609,6 +629,7 @@
     document.addEventListener("paste", instagramPaste, true);
     document.addEventListener("paste", convertPaste, true);
     document.addEventListener("drop", trackFocusedEditor, true);
+    document.addEventListener("pointerdown", convertOnTrustedPress, true);
     document.addEventListener("click", convertBeforeSubmit, true);
     document.addEventListener("keydown", (event) => {
         if (!enabled) {
