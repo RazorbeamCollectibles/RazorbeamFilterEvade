@@ -26,7 +26,7 @@ Reason: Twitter/X, Instagram, and YouTube change their web editors too often. Th
 
 The older browser-script build is still available for anyone who wants it:
 
-https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/tag/v1.0.12
+https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/tag/v1.0.11
 
 ## Notice
 
