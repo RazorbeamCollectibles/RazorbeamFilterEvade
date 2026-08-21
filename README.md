@@ -1,29 +1,34 @@
-﻿# Razorbeam Filter Evade
+# Razorbeam Filter Evade
 
-Tired of censors and profanity filters? Now you can be a potty-mouthed dumbass. ANYWHERE.
+Desktop text converter for replacing selected Latin letters with visually similar non-Latin glyphs.
 
 ## Highlights
 
-- Instantly converts characters.
-- Press Tab to copy
-- Browser script that basically does the same thing: automatically converts posts and comments on Twitter, YouTube, and Instagram.
-- Entirely open source. Feel free to build it yourself via `run.bat` after you inspect the code. 
+- Instantly converts typed or pasted text.
+- Press `Tab` to copy the output.
+- Optional `Enter copies to clipboard` mode.
+- Remembers window position and checkbox settings.
+- Entirely open source. Feel free to build it yourself via run.bat after you inspect the code.
 
-# Quick Start Guide
+## Quick Start
 
-- To use the all-in-one .exe, just click [here](https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/download/v1.0.11/RazorbeamFilterEvade.exe)
-- To use the browser script:
-1. Install Tampermonkey in Firefox or Chrome.
-2. Open `RazorbeamFilterEvade.user.js`.
-3. Create a new Tampermonkey script, paste it, save.
+- Just download `RazorbeamFilterEvade.exe` from the latest release.
 
 ## Interface
 
 ![Main Window](docs/screenshots/RBFEMain.png)
 
-Don't like where the button is located? Drag it and move it. 
-![Moveable browser button](docs/screenshots/RBFEButton.gif)
+## Browser Script Status
+
+The Tampermonkey/browser script is discontinued starting with `v1.1.0`.
+
+Reason: Twitter/X, Instagram, and YouTube change their web editors too often. The script became too fragile to ship as a supported feature.
+
+The older browser-script build is still available for anyone who wants it:
+
+https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/tag/v1.0.12
 
 ## Notice
-- We aren't responsible if you get banned from somewhere using this. 
-- When copypasting text blocks to Twitter, ignore the duplicated portion: the final submission will be clean.
+
+- We are not responsible if you get banned from somewhere using this.
+- The desktop app is the supported version going forward.

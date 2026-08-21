@@ -102,6 +102,7 @@ def apply_application_theme(app: QtWidgets.QApplication) -> None:
             background-color: {UI_COLORS["panel_background"]};
             color: {UI_COLORS["text"]};
             border: 1px solid {UI_COLORS["strong_border"]};
+            border-radius: 4px;
             padding: 7px 14px;
             min-height: 18px;
         }}
