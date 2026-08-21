@@ -24,9 +24,7 @@ The Tampermonkey/browser script is discontinued starting with `v1.1.0`.
 
 Reason: Twitter/X, Instagram, and YouTube change their web editors too often. The script became too fragile to ship as a supported feature.
 
-The older browser-script build is still available for anyone who wants it:
-
-https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/tag/v1.0.11
+The older browser-script build is still available [here](https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/tag/v1.0.11) for anyone who wants it.
 
 ## Notice
 
