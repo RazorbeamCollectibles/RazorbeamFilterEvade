@@ -12,7 +12,7 @@ Desktop text converter for replacing selected Latin letters with visually simila
 
 ## Quick Start
 
-- Just download `RazorbeamFilterEvade.exe` from the latest release.
+- Just click [here](https://github.com/RazorbeamCollectibles/RazorbeamFilterEvade/releases/download/v1.1.0/RazorbeamFilterEvade.exe).
 
 ## Interface
 
